@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "Excelsus",
+  "version": "${version}",
+  "name": "Excelsus",
+  "description": "Minecraft Tech Mod",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/Excelsus/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "excelsus.excelsus.client.ExcelsusClient"
+    ],
+    "main": [
+      "excelsus.excelsus.Excelsus"
+    ]
+  },
+  "mixins": [
+    "Excelsus.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.1",
+    "fabric": "*",
+    "minecraft": "1.16.4"
+  }
+}
