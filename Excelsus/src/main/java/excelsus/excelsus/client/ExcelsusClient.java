@@ -10,4 +10,6 @@ public class ExcelsusClient implements ClientModInitializer {
     public void onInitializeClient() {
 
     }
+
+    //Client and GUI Functionality are preferably made here
 }
