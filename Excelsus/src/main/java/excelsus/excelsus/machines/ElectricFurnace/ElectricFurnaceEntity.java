@@ -25,7 +25,7 @@ public class ElectricFurnaceEntity extends AbstractFurnaceBlockEntity {
     @Override
     public ScreenHandler createScreenHandler(int syncId, PlayerInventory playerInventory) {
         //TODO POR FAZER : PARA QUESTOES DE TESTES USA A SCREEN DE UM FORNALHA NORMAL
-        return new FurnaceScreenHandler(syncId,playerInventory);
+        return new FurnaceScreenHandler(syncId,playerInventory,this,this.propertyDelegate);
     }
 
     //TODO NEED TO REPLACE TICK, NEED TO REPLACE ADDFUEL, NEED TO DO A LOT OF THINGS
